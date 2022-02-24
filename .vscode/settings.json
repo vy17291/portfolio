@@ -1,0 +1,6 @@
+{
+    "editor.cursorSurroundingLinesStyle": "all",
+    "editor.cursorBlinking": "smooth",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+}

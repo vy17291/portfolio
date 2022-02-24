@@ -1,0 +1,54 @@
+.hero{
+    gap: 0 30px;
+    &-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    &-image {
+        width: 50%;
+    }
+    &-content{
+        .heading {
+            font-weight: bold;
+            font-size: 120px;
+            margin-bottom: 50px;
+        }
+        .desc {
+            font-size: 24px;
+            max-width: 440px;
+            margin-bottom: 100px;
+        }
+    }
+    .contact {
+        text-decoration: underline;
+        display: inline-block;
+        color: white;
+        font-weight: 600;
+    }
+    @media screen and (max-width: 1023px) {
+        &-heading {
+        font-size: 80px;
+        margin-bottom: 25px;
+        }
+        &-desc {
+        margin-bottom: 40px;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        &-content {
+        left: 15px;
+        }
+        &-heading {
+        font-size: 40px;
+        margin-bottom: 15px;
+        }
+        &-desc {
+        margin-bottom: 20px;
+        font-size: 18px;
+        max-width: 75%;
+        }
+        &-contact {
+        font-size: 16px;
+        }
+    }
+}
