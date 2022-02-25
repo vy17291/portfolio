@@ -77,8 +77,8 @@
     &-main {
       flex-direction: column;
       row-gap: 40px;
-      &-left,&-right {
-      width: 100%;
+      .skil-left, .skill-right {
+        width: 60%;
       }
     }
     &-caption {
