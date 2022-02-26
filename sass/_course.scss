@@ -5,6 +5,11 @@
     &-desc {
         max-width: 520px;
     }
+    &-teach{
+        display: block;
+        justify-content: stretch;
+        margin-top: 20px ;
+    }
     &-content {
         margin-bottom: 40px;
     
@@ -24,6 +29,7 @@
         // }
         &-img img {
             max-width: 100%;
+            object-fit: cover;
         }
     }
 }
