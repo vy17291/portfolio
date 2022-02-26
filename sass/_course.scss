@@ -1,0 +1,22 @@
+.course {
+    &-content {
+        margin-bottom: 40px;
+
+        &-img {
+            display: flex;
+            .img-container{
+                width: 205px;
+                height: 205px;
+                margin: 10px 20px;
+                overflow: hidden;
+                border-radius: 100rem;
+            }
+        }
+        &-img:nth-child(2){
+            flex-direction: row-reverse;
+        }
+        &-img img {
+            max-width: 100%;
+        }
+    }
+}

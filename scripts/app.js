@@ -53,3 +53,10 @@ toggle.addEventListener("click", function () {
 //     menu.style.display = "none";
 //   }
 // });
+const projectJs = document.querySelector('.project-java');
+const viewBtn = document.querySelector('.project-view');
+
+viewBtn.addEventListener('click', function() {
+  projectJs.style.display = "block";
+  console.log(projectJs)
+})
