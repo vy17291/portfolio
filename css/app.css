@@ -573,6 +573,12 @@ body {
   }
 }
 
+.course-heading {
+  max-width: 60%;
+}
+.course-desc {
+  max-width: 520px;
+}
 .course-content {
   margin-bottom: 40px;
 }
@@ -586,13 +592,15 @@ body {
   overflow: hidden;
   border-radius: 100rem;
 }
-.course-content-img:nth-child(2) {
-  flex-direction: row-reverse;
-}
 .course-content-img img {
   max-width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+  .course-content-img:nth-child(2) {
+    flex-direction: row;
+  }
+}
 .footer {
   background-color: #00000c;
   line-height: 1.5;

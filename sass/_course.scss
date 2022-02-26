@@ -1,7 +1,13 @@
 .course {
+    &-heading {
+        max-width: 60%;
+    }
+    &-desc {
+        max-width: 520px;
+    }
     &-content {
         margin-bottom: 40px;
-
+    
         &-img {
             display: flex;
             .img-container{
@@ -10,13 +16,24 @@
                 margin: 10px 20px;
                 overflow: hidden;
                 border-radius: 100rem;
+                
             }
         }
-        &-img:nth-child(2){
-            flex-direction: row-reverse;
-        }
+        // &-img:nth-child(2){
+        //     flex-direction: row-reverse;
+        // }
         &-img img {
             max-width: 100%;
         }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    // .img-container{
+    //     width: 160px;
+    //     height: 160px;
+    // }
+    .course-content-img:nth-child(2){
+        flex-direction: row;
     }
 }
