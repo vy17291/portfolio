@@ -242,7 +242,7 @@ body:before {
 .hero-content .desc {
   font-size: 24px;
   max-width: 440px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .hero .contact {
   text-decoration: underline;
@@ -586,13 +586,16 @@ body {
 }
 .course-content {
   margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
 }
 .course-content-img {
   display: flex;
 }
 .course-content-img .img-container {
-  width: 205px;
-  height: 205px;
+  width: 180px;
+  height: 180px;
   margin: 10px 20px;
   overflow: hidden;
   border-radius: 100rem;
@@ -603,6 +606,10 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .course-content {
+    grid-template-columns: 1fr;
+  }
+
   .course-content-img:nth-child(2) {
     flex-direction: row;
   }
