@@ -36,7 +36,7 @@
         font-size: 80px;
         margin-bottom: 25px;
         }
-        &-desc {
+        .desc {
         margin-bottom: 40px;
         }
     }
@@ -51,17 +51,15 @@
         &-image {
             max-width: 80%;
         }
-        &-content {
-            left: 15px;
-        }
+        
         .heading {
             font-size: 40px;
             margin-bottom: 15px;
         }
-        &-desc {
+        .desc {
         margin-bottom: 20px;
         font-size: 18px;
-        max-width: 75%;
+        max-width: 80%;
         }
         &-contact {
         font-size: 16px;

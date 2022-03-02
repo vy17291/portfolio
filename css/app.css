@@ -256,7 +256,7 @@ body:before {
     font-size: 80px;
     margin-bottom: 25px;
   }
-  .hero-desc {
+  .hero .desc {
     margin-bottom: 40px;
   }
 }
@@ -271,17 +271,14 @@ body:before {
   .hero-image {
     max-width: 80%;
   }
-  .hero-content {
-    left: 15px;
-  }
   .hero .heading {
     font-size: 40px;
     margin-bottom: 15px;
   }
-  .hero-desc {
+  .hero .desc {
     margin-bottom: 20px;
     font-size: 18px;
-    max-width: 75%;
+    max-width: 80%;
   }
   .hero-contact {
     font-size: 16px;
