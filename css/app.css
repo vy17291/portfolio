@@ -243,6 +243,7 @@ body:before {
   font-size: 24px;
   max-width: 440px;
   margin-bottom: 50px;
+  line-height: 1.6;
 }
 .hero .contact {
   text-decoration: underline;
@@ -578,6 +579,7 @@ body {
 }
 .course-desc {
   max-width: 520px;
+  line-height: 1.6;
 }
 .course-teach {
   display: block;

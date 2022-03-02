@@ -58,5 +58,6 @@ const viewBtn = document.querySelector('.project-view');
 
 viewBtn.addEventListener('click', function() {
   projectJs.style.display = "block";
+  viewBtn.innerHTML = `<a href="https://github.com/vy17291" class="btn btn--primary project-view">View more</a>`;
   console.log(projectJs)
 })
