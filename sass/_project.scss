@@ -9,10 +9,15 @@
   &-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    //grid-template-rows: 370px 170px 370px;
+    // grid-template-rows: repeat(3, 1fr);
     grid-gap: 30px;
     margin-bottom: 40px;
-    
+    //  #countries-pj {
+    //    grid-row: 1 / span 2;
+    //  }
+     #meowa-pj {
+      grid-row: 1 / span 3;
+     }
     .project-image-container{
       img {
         max-width: 100%;
@@ -32,7 +37,7 @@
   }
   @media screen and (max-width: 767px) {
     &-images {
-      grid-template-rows: 150px 50px 150px;
+      // grid-template-rows: 150px 50px 150px;
       grid-gap: 20px;
       margin-bottom: 35px;
     }
