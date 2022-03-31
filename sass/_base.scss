@@ -68,17 +68,14 @@ body {
 
 .sticky-category{
   position: fixed;
-  width: 60px;
-  height: 60px;
+  
+  
   background-color: $blue;
   color: white;
   right: 0;
   bottom: 100px;
-  padding: 10px;
+  padding: 5px 10px;
   z-index: 99;
-  img{
-    max-width: 100%;
-  }
 }
 /* Tooltip container */
 .tooltip {

@@ -20,7 +20,7 @@
             display: flex;
             .img-container{
                 width: 180px;
-                height: 180px;
+                height: min-content;
                 margin: 10px 20px;
                 overflow: hidden;
                 border-radius: 100rem;
@@ -41,6 +41,15 @@
     //     width: 160px;
     //     height: 160px;
     // }
+    .course-content{
+        grid-template-columns: 1fr;
+    }
+    .course-content-img:nth-child(2){
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 415px) {
+
     .course-content{
         grid-template-columns: 1fr;
     }

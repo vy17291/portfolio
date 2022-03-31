@@ -205,17 +205,12 @@ body:before {
 }
 .sticky-category {
   position: fixed;
-  width: 60px;
-  height: 60px;
   background-color: #4a44f3;
   color: white;
   right: 0;
   bottom: 100px;
-  padding: 10px;
+  padding: 5px 10px;
   z-index: 99;
-}
-.sticky-category img {
-  max-width: 100%;
 }
 
 /* Tooltip container */
@@ -642,7 +637,7 @@ body {
 }
 .course-content-img .img-container {
   width: 180px;
-  height: 180px;
+  height: min-content;
   margin: 10px 20px;
   overflow: hidden;
   border-radius: 100rem;
@@ -653,6 +648,15 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .course-content {
+    grid-template-columns: 1fr;
+  }
+
+  .course-content-img:nth-child(2) {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 415px) {
   .course-content {
     grid-template-columns: 1fr;
   }
